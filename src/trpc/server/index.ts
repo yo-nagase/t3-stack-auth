@@ -1,6 +1,7 @@
 import { router } from "@/trpc/server/trpc"
 import { authRouter } from "@/trpc/server/routers/auth"
 import { userRouter } from "@/trpc/server/routers/user"
+import { sampleRouter } from "./routers/sample"
 
 
 
@@ -8,6 +9,7 @@ import { userRouter } from "@/trpc/server/routers/user"
 export const appRouter = router({
   auth: authRouter,
   user: userRouter,
+  sample: sampleRouter, 
 })
 
 // ルーターの型定義

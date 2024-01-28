@@ -115,7 +115,7 @@ const Login = () => {
                 <FormLabel>メールアドレス</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder="fullstackchannelinfo@gmail.com"
+                    placeholder="sample@example.com"
                     {...field}
                   />
                 </FormControl>
